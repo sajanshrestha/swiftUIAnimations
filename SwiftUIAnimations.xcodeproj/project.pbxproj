@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		93ABC30EEFCD3B8D6E3A3063 /* Pods_SwiftUIAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F162DE1EF1BB98C93E0AE64 /* Pods_SwiftUIAnimations.framework */; };
+		A101BF0125AB831B008D90A0 /* CircularPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101BF0025AB831B008D90A0 /* CircularPath.swift */; };
 		A107C62F25A3760E00A46F9A /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107C62E25A3760E00A46F9A /* SwiftUIAnimationsApp.swift */; };
 		A107C63125A3760E00A46F9A /* OpacityAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107C63025A3760E00A46F9A /* OpacityAnimation.swift */; };
 		A107C63325A3761000A46F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A107C63225A3761000A46F9A /* Assets.xcassets */; };
 		A107C63625A3761000A46F9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A107C63525A3761000A46F9A /* Preview Assets.xcassets */; };
 		A107C64525A3835300A46F9A /* ShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107C64425A3835300A46F9A /* ShapeAnimation.swift */; };
+		A15BAA4225A6690700E18A70 /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BAA4125A6690700E18A70 /* LoadingSpinner.swift */; };
+		A15BAA4525A66D6E00E18A70 /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BAA4425A66D6E00E18A70 /* ProgressCircle.swift */; };
 		A19849D125A3CF71001C9D73 /* NewYearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19849D025A3CF71001C9D73 /* NewYearAnimation.swift */; };
 		A19849D725A3D84F001C9D73 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19849D625A3D84F001C9D73 /* LottieView.swift */; };
 		A19849E425A3DE10001C9D73 /* fireworks3.json in Resources */ = {isa = PBXBuildFile; fileRef = A19849E325A3DE10001C9D73 /* fireworks3.json */; };
+		A1DCC93F25A4F3C200E0EDA9 /* TimerWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DCC93E25A4F3C200E0EDA9 /* TimerWithCombine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CB0439BDFDAC12AD111BCEF /* Pods-SwiftUIAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAnimations.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIAnimations/Pods-SwiftUIAnimations.debug.xcconfig"; sourceTree = "<group>"; };
 		17CF496C294990B7252382B4 /* Pods-SwiftUIAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAnimations.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIAnimations/Pods-SwiftUIAnimations.release.xcconfig"; sourceTree = "<group>"; };
 		8F162DE1EF1BB98C93E0AE64 /* Pods_SwiftUIAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101BF0025AB831B008D90A0 /* CircularPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularPath.swift; sourceTree = "<group>"; };
 		A107C62B25A3760E00A46F9A /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107C62E25A3760E00A46F9A /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 		A107C63025A3760E00A46F9A /* OpacityAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityAnimation.swift; sourceTree = "<group>"; };
@@ -29,9 +34,12 @@
 		A107C63525A3761000A46F9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A107C63725A3761000A46F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A107C64425A3835300A46F9A /* ShapeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeAnimation.swift; sourceTree = "<group>"; };
+		A15BAA4125A6690700E18A70 /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
+		A15BAA4425A66D6E00E18A70 /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
 		A19849D025A3CF71001C9D73 /* NewYearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearAnimation.swift; sourceTree = "<group>"; };
 		A19849D625A3D84F001C9D73 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		A19849E325A3DE10001C9D73 /* fireworks3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fireworks3.json; sourceTree = "<group>"; };
+		A1DCC93E25A4F3C200E0EDA9 /* TimerWithCombine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerWithCombine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A107C62E25A3760E00A46F9A /* SwiftUIAnimationsApp.swift */,
-				A107C63025A3760E00A46F9A /* OpacityAnimation.swift */,
-				A107C64425A3835300A46F9A /* ShapeAnimation.swift */,
-				A19849D025A3CF71001C9D73 /* NewYearAnimation.swift */,
+				A15BAA3E25A61D1400E18A70 /* Group1 */,
 				A16779E925A4E5A30054B3BB /* SupportingFiles */,
 				A107C63225A3761000A46F9A /* Assets.xcassets */,
 				A107C63725A3761000A46F9A /* Info.plist */,
@@ -102,6 +108,20 @@
 				A107C63525A3761000A46F9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A15BAA3E25A61D1400E18A70 /* Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				A107C63025A3760E00A46F9A /* OpacityAnimation.swift */,
+				A107C64425A3835300A46F9A /* ShapeAnimation.swift */,
+				A19849D025A3CF71001C9D73 /* NewYearAnimation.swift */,
+				A1DCC93E25A4F3C200E0EDA9 /* TimerWithCombine.swift */,
+				A15BAA4125A6690700E18A70 /* LoadingSpinner.swift */,
+				A15BAA4425A66D6E00E18A70 /* ProgressCircle.swift */,
+				A101BF0025AB831B008D90A0 /* CircularPath.swift */,
+			);
+			path = Group1;
 			sourceTree = "<group>";
 		};
 		A16779E925A4E5A30054B3BB /* SupportingFiles */ = {
@@ -229,8 +249,12 @@
 			files = (
 				A107C64525A3835300A46F9A /* ShapeAnimation.swift in Sources */,
 				A107C63125A3760E00A46F9A /* OpacityAnimation.swift in Sources */,
+				A1DCC93F25A4F3C200E0EDA9 /* TimerWithCombine.swift in Sources */,
 				A19849D725A3D84F001C9D73 /* LottieView.swift in Sources */,
 				A19849D125A3CF71001C9D73 /* NewYearAnimation.swift in Sources */,
+				A101BF0125AB831B008D90A0 /* CircularPath.swift in Sources */,
+				A15BAA4225A6690700E18A70 /* LoadingSpinner.swift in Sources */,
+				A15BAA4525A66D6E00E18A70 /* ProgressCircle.swift in Sources */,
 				A107C62F25A3760E00A46F9A /* SwiftUIAnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
